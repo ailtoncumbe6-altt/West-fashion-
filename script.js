@@ -1,5 +1,5 @@
 // Coloque aqui o seu número de WhatsApp com o indicativo do país
-const NUMERO_WHATSAPP = "258800000000"; 
+const NUMERO_WHATSAPP = "258878933821"; 
 
 const products = [
     { id: 1, name: "Tênis Esportivo", price: 1990.00, img: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=300" },
