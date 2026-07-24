@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Loja Mobile</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Ícones Lucide -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+    <!-- CABEÇALHO -->
+    <header>
+        <div class="logo">MinhaLoja</div>
+        <div class="cart-icon" onclick="toggleCart()">
+            <i data-lucide="shopping-cart"></i>
+            <span id="cart-count">0</span>
+        </div>
+    </header>
+
+    <!-- PRODUTOS -->
+    <main class="products-grid" id="products-container">
+        <!-- Produtos são inseridos via JS -->
+    </main>
+
+    <!-- MODAL DO CARRINHO -->
+    <div class="cart-modal" id="cart-modal">
+        <div class="cart-content">
+            <div class="cart-header">
+                <h2>Seu Carrinho</h2>
+                <button class="close-btn" onclick="toggleCart()">&times;</button>
+            </div>
+            <div class="cart-items" id="cart-items">
+                <!-- Itens do carrinho -->
+            </div>
+            <div class="cart-footer">
+                <p>Total: <strong id="cart-total">MT 0,00</strong></p>
+                <button class="checkout-btn" onclick="checkout()">Finalizar no WhatsApp</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- O JS deve carregar exatamente aqui antes do fechamento do body -->
+    <script src="script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
