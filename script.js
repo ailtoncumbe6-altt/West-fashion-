@@ -5,6 +5,7 @@ const products = [
     { id: 1, name: "Tênis Esportivo", price: 1990.00, img: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=300" },
     { id: 2, name: "Relógio Digital", price: 1490.00, img: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=300" },
     { id: 3, name: "Fone Bluetooth", price: 890.00, img: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=300" }
+    { id: 4, name: " calções da air jordan", price: 1050.00, img: "https://i.postimg.cc/cHbqjkJ5/Image-20231126105720.jpg" }
 ];
 
 let cart = [];
